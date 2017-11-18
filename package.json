@@ -1,0 +1,22 @@
+{
+  "name": "puppeteer-jest-demo",
+  "version": "1.0.0",
+  "description": "Demos to work with Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "screenshot": "",
+    "screenshot-full": ""
+  },
+  "keywords": [],
+  "author": "Carlos Araya <carlos.araya@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-preset-env": "^1.6.1",
+    "faker": "^4.1.0",
+    "jest": "^21.2.1",
+    "puppeteer": "^0.13.0"
+  }
+}
