@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "screenshot": "",
-    "screenshot-full": ""
+    "screenshot": "node screenshot/screenshot.js",
+    "screenshot-full": "node screenshot/screenshot-full.js",
+    "headfull": "node screenshot/screenshot-headfull.js"
   },
   "keywords": [],
   "author": "Carlos Araya <carlos.araya@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@std/esm": "^0.16.0",
     "babel-core": "^6.26.0",
     "babel-jest": "^21.2.0",
     "babel-preset-env": "^1.6.1",
